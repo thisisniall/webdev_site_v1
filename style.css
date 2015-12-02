@@ -1,6 +1,10 @@
+.iconsize {
+	height: 24px;
+	width: 24px;
+}
+
 .btnz {
    display: block;
-   float: left;
    padding: 10px 15px;
    border:none;
    background-color: #ececec;
@@ -15,6 +19,14 @@
 
 .facebook {
    background-color: #3b5998;
+}
+
+.black {
+   background-color: #000000;
+}
+
+.imperial {
+	background-color: #848484;
 }
  
 .gplus {
