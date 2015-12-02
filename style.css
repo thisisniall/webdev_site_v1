@@ -1,3 +1,21 @@
+* {
+	margin: 0 0;
+	padding: 0 0;
+}
+
+body {
+	background-image:;
+}
+
+#right-sidebar {
+	float: right;
+	/*max-width will be reduced when explanatory tags are ditched*/
+	max-width: 300px;
+/*	margin-top can be altered when navbar is established*/
+	margin-top: 100px;
+	margin-left: 20px;
+}
+
 .iconsize {
 	height: 24px;
 	width: 24px;
@@ -25,8 +43,12 @@
    background-color: #000000;
 }
 
+.red {
+   background-color: red;
+}
+
 .imperial {
-	background-color: #848484;
+	background-color: #323b43
 }
  
 .gplus {
@@ -37,18 +59,47 @@
    background-color: #55acee;
 }
  
-.stumbleupon {
-   background-color: #eb4924;
-}
- 
-.pinterest {
-   background-color: #cc2127;
-}
- 
 .linkedin {
    background-color: #0077b5;
 }
  
-.buffer {
-   background-color: #323b43;
+#bigtext {
+	margin: 0 auto;
+	font-family: Arial;
+	font-size: 36px;
+	width: 50%;
+/*	need to align this vertically*/
+}
+
+#navbar {
+	font-family: arial;
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	top: 0;
+	margin-bottom: 15px;
+}
+
+#navbar ul {
+	display: inline;
+}
+
+#navbar li {
+	display: inline;
+	padding: 5px 5%;
+}
+
+#navbar a {
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	padding: 5px 5px;
+}
+
+#navbar a:hover {
+	background-color: #ececec;
+	color: black;
 }
