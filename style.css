@@ -4,7 +4,9 @@
 }
 
 body {
-	background-image:;
+	background-image: url(imgs/islandrange-7.jpg);
+	background-size: cover;
+	height: 100vh;
 }
 
 #right-sidebar {
@@ -67,8 +69,13 @@ body {
 	margin: 0 auto;
 	font-family: Arial;
 	font-size: 36px;
-	width: 50%;
+	width: 400px;
+	color: white;
 /*	need to align this vertically*/
+/*  		position: relative;
+  		top: 50%;
+  		transform: translateY(50%)*/
+  	vertical-align: center;
 }
 
 #navbar {
@@ -84,11 +91,14 @@ body {
 
 #navbar ul {
 	display: inline;
+	margin: 0 auto;
 }
 
 #navbar li {
 	display: inline;
-	padding: 5px 5%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 10%;
 }
 
 #navbar a {
