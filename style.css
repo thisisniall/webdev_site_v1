@@ -13,6 +13,11 @@
 	background-size: cover;
 }
 
+#clickbait {
+	background-image: url(imgs/keywest-5031.jpg);
+	background-size: cover;
+}
+
 #right-sidebar {
 	position: fixed;
 		right: 0;
@@ -146,4 +151,18 @@
 
 .infobox h4 {
 	text-align: center
+}
+
+#clickbaitcontent {
+	margin: 0 auto;
+	width: 570px;
+	vertical-align: center;
+	text-align: center;
+	font-family: Arial;
+	color: white;
+	margin-top: 10%;
+}
+
+#clickbaitcontent h1 {
+	margin-bottom: 10px;
 }
