@@ -110,8 +110,8 @@
 #bigtext {
 	margin: 0 auto;
 	font-family: Arial;
-	font-size: 36px;
-	width: 400px;
+	font-size: 48px;
+	width: 500px;
 	color: white;
   	vertical-align: center;
   	margin-top: 40vh;
@@ -126,10 +126,17 @@
 	margin-top: 10%;
 }
 
+#aboutme h1 {
+	font-size: 36px;
+	text-align: center;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	margin-bottom: 15px
+}
+
 .infobox {
 	display: inline-block;
 	text-indent: 18px;
-	width: 350px;
+	width: 325px;
 	padding: 5px 20px;
 	margin: 5px;
 	background-color: rgba(0,0,0,0.5);
