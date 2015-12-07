@@ -3,6 +3,11 @@
 	padding: 0 0;
 }
 
+/*Note: tried some no-repeat and fixing/centering (Rather than covering) of images,
+but ended up liking cover more (especially on larger screens) - tiling only seems to
+be an issue when the pages are switched to a heavily-vertical alignment.
+Once JS is learned, may see if there are conditional formatting options relative to window-size.*/
+
 #index {
 	background-image: url(imgs/islandrange-7.jpg);
 	background-size: cover;
