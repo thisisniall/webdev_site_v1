@@ -1,26 +1,11 @@
 * {
-	margin: 0 0;
-	padding: 0 0;
-}
+	font-family: Arial;
+	margin: 0;
+	padding: 0;
+	}
 
-/*Note: tried some no-repeat and fixing/centering (Rather than covering) of images,
-but ended up liking cover more (especially on larger screens) - tiling only seems to
-be an issue when the pages are switched to a heavily-vertical alignment.
-Once JS is learned, may see if there are conditional formatting options relative to window-size.*/
-
-#index {
-	background-image: url(imgs/islandrange-7.jpg);
-	background-size: cover;
-}
-
-#about {
-	background-image: url(imgs/montanahills.jpg);
-	background-size: cover;
-}
-
-#clickbait {
-	background-image: url(imgs/keywest-5031.jpg);
-	background-size: cover;
+body {
+	background-color: black;
 }
 
 #right-sidebar {
@@ -30,7 +15,7 @@ Once JS is learned, may see if there are conditional formatting options relative
 	max-width: 300px;
 	margin-top: 100px;
 	margin-left: 20px;
-	background-color:rgba(0,0,0,0.1);
+	background-color:rgba(0,0,0,0.4);
 	border-radius: 5px;
 }
 
@@ -41,7 +26,7 @@ Once JS is learned, may see if there are conditional formatting options relative
 
 .btnz {
    display: block;
-   padding: 10px 15px;
+   padding: 10px 20px;
    border:none;
    text-decoration: none;
    font-size: 18px;
@@ -54,69 +39,34 @@ Once JS is learned, may see if there are conditional formatting options relative
    border-radius: 5px;
 }
 
-#navbar {
-	font-family: arial;
-	background-color: black;
-	position: fixed;
+// going to have to fix these image paths?
+
+.backgroundone {
+	margin-top: 0px;
+	height: 100vh;
 	width: 100%;
-	text-align: center;
-	margin: 0 auto;
-	top: 0;
-	margin-bottom: 15px;
-	padding-bottom: 2px;
+	background-image: url(imgs/montanavalley.jpg);
+	background-size: cover;
 }
 
-#navbar ul {
-	display: inline;
-	margin: 0 auto;
+.backgroundtwo {
+	margin-top: 0px;
+	height: 100vh;
+	width: 100%;
+	background-image: url(imgs/montanahills.jpg);
+	background-size: cover;
 }
 
-#navbar ul:after {
-	content: " "; clear: both; display: block;
+// is gonna need a new image, obviously
+.backgroundthree {
+	margin-top: 0px;
+	height: 100vh;
+	width: 100%;
+	background-image: url(imgs/montanavalley.jpg);
+	background-size: cover;
 }
 
-#navbar ul li {
-	display: inline;
-	padding-top: 5px;
-	margin-right: 9%;
-	margin-left: 1%;
-}
-
-#navbar ul ul {
-	display: none;
-	position: absolute; top: 100%; left: 50%;
-	background-color: rgba(0,0,0,.5);
-	border-radius: 5px;
-	max-width: 175px
-}
-
-#navbar ul li:hover > ul {
-	display: block;
-}
-
-#navbar ul > li > ul > li {
-	display: block;
-	color: white;
-	font-style: bold;
-	min-width: 200px;
-	padding: 5px 0px;
-	text-align: left;
-}
-
-#navbar a {
-	text-decoration: none;
-	font-size: 18px;
-	font-weight: bold;
-	color: white;
-	padding: 5px 5px;
-	border-radius: 5px;
-}
-
-#navbar a:hover {
-	background-color: #ececec;
-	color: black;
-}
-
+// floating too high.
 #bigtext {
 	margin: 0 auto;
 	font-family: Arial;
@@ -124,23 +74,26 @@ Once JS is learned, may see if there are conditional formatting options relative
 	width: 500px;
 	color: white;
   	vertical-align: center;
-  	margin-top: 40vh;
+  	margin-bottom: 20vh;
+  	padding-top: 40vh;
 }
 
-#aboutme {
+.aboutme {
 	margin: 0 auto;
 	width: 80%;
 	font-family: Arial;
 	color: white;
 	vertical-align: center;
-	margin-top: 10%;
+	padding-top: 20vh;
+	margin-top: 1vh;
 }
 
 #aboutme h1 {
-	font-size: 36px;
+	margin: 0 auto;
+	width: 400px;
 	text-align: center;
+	font-size: 36px;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-	margin-bottom: 15px
 }
 
 .infobox {
@@ -156,18 +109,4 @@ Once JS is learned, may see if there are conditional formatting options relative
 
 .infobox h4 {
 	text-align: center
-}
-
-#clickbaitcontent {
-	margin: 0 auto;
-	width: 570px;
-	vertical-align: center;
-	text-align: center;
-	font-family: Arial;
-	color: white;
-	margin-top: 10%;
-}
-
-#clickbaitcontent h1 {
-	margin-bottom: 10px;
 }
