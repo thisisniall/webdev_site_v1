@@ -39,7 +39,7 @@ body {
    border-radius: 5px;
 }
 
-// going to have to fix these image paths?
+/*going to have to fix these image paths?*/
 
 .backgroundone {
 	margin-top: 0px;
@@ -57,7 +57,7 @@ body {
 	background-size: cover;
 }
 
-// is gonna need a new image, obviously
+/*is gonna need a new image, obviously*/
 .backgroundthree {
 	margin-top: 0px;
 	height: 100vh;
@@ -66,7 +66,7 @@ body {
 	background-size: cover;
 }
 
-// floating too high.
+/*floating too high.*/
 #bigtext {
 	margin: 0 auto;
 	font-family: Arial;
