@@ -78,28 +78,48 @@ body {
   	padding-top: 40vh;
 }
 
-.aboutme {
+.infoboxholder {
 	margin: 0 auto;
-	width: 80%;
+	width: 90%;
 	font-family: Arial;
 	color: white;
 	vertical-align: center;
-	padding-top: 20vh;
+	padding-top: 5vh;
 	margin-top: 1vh;
 }
 
-#aboutme h1 {
+.titletext{
 	margin: 0 auto;
 	width: 400px;
 	text-align: center;
 	font-size: 36px;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	color: white;
+	padding-top: 20vh;
+}
+
+.biginfobox {
+	display: block;
+	text-indent: 18px;
+	width: 600px;
+	margin: 0 auto;
+	height: 200px;
+	padding: 5px 20px;
+	background-color: rgba(0,0,0,0.5);
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.biginfobox p {
+	font-size: 16pt;
 }
 
 .infobox {
 	display: inline-block;
+	vertical-align: top;
 	text-indent: 18px;
-	width: 325px;
+	width: 300px;
+	height: 125px;
 	padding: 5px 20px;
 	margin: 5px;
 	background-color: rgba(0,0,0,0.5);
