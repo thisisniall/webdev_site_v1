@@ -78,7 +78,7 @@ body {
   	padding-top: 40vh;
 }
 
-.infoboxholder {
+.boxholder {
 	margin: 0 auto;
 	width: 90%;
 	font-family: Arial;
@@ -129,4 +129,22 @@ body {
 
 .infobox h4 {
 	text-align: center
+}
+
+.project {
+	display: inline-block;
+	vertical-align: top;
+	text-indent: 18px;
+	width: 450px;
+	height: 450px;
+	padding: 5px 20px;
+	margin: 5px;
+	background-color: rgba(0,0,0,0.5);
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.project img {
+	width: 450px;
+	height: 100%;
 }
