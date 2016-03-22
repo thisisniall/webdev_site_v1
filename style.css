@@ -104,10 +104,10 @@ body {
 	margin: 0 auto;
 	height: 150px;
 	padding: 5px 20px;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.4);
 	border: 1px solid black;
 	border-radius: 5px;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 }
 
 .biginfobox p {
@@ -119,10 +119,10 @@ body {
 	vertical-align: top;
 	text-indent: 18px;
 	width: 300px;
-	height: 125px;
+	height: 120px;
 	padding: 5px 20px;
 	margin: 5px;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.4);
 	border: 1px solid black;
 	border-radius: 5px;
 }
